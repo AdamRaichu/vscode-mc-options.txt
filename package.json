@@ -1,0 +1,32 @@
+{
+  "name": "options-txt",
+  "description": "An extension which provides data concerning Minecraft's options.txt file.",
+  "author": {
+    "name": "AdamRaichu",
+    "url": "https://github.com/AdamRaichu"
+  },
+  "version": "1.0.0",
+  "main": "./extension.js",
+  "dependencies": {},
+  "contributes": {
+    "languages": [
+      {
+        "id": "options-txt",
+        "aliases": [
+          "options-txt"
+        ],
+        "extensions": [
+          "options.txt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "options-txt",
+        "scopeName": "source.options-txt",
+        "path": "./syntaxes/options-txt.tmLanguage."
+      }
+    ]
+  }
+}

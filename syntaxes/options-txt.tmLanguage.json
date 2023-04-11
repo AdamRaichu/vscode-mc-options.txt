@@ -1,0 +1,26 @@
+{
+  "name": "Minecraft options.txt",
+  "scopeName": "source.options-txt",
+  "patterns": [
+    {
+      "include": "#keys"
+    }
+  ],
+  "repository": {
+    "keys": {
+      "name": "support.type.property-name",
+      "begin": "^",
+      "end": "[a-z](?=:)"
+    },
+    "values": {
+      "begin": ":",
+      "end": "$",
+      "patterns": [
+        {
+          "name": "support.property-value",
+          "match": "[^:]"
+        }
+      ]
+    }
+  }
+}
