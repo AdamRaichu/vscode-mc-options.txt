@@ -8,6 +8,9 @@
   "version": "1.0.0",
   "main": "./extension.js",
   "dependencies": {},
+  "activationEvents": [
+    "onLanguage:options-txt"
+  ],
   "contributes": {
     "languages": [
       {
@@ -16,9 +19,12 @@
           "options-txt"
         ],
         "extensions": [
-          "options.txt"
+          "txt"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./language-configuration.json",
+        "filenames": [
+          "options.txt"
+        ]
       }
     ],
     "grammars": [
