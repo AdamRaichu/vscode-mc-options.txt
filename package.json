@@ -35,5 +35,8 @@
         "path": "./syntaxes/options-txt.tmLanguage."
       }
     ]
+  },
+  "engines": {
+    "vscode": "^1.70.0"
   }
 }
