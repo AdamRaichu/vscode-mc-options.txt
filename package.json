@@ -24,7 +24,8 @@
         ],
         "configuration": "./language-configuration.json",
         "filenames": [
-          "options.txt"
+          "options.txt",
+          "optionsof.txt"
         ]
       }
     ],
@@ -32,7 +33,7 @@
       {
         "language": "options-txt",
         "scopeName": "source.options-txt",
-        "path": "./syntaxes/options-txt.tmLanguage."
+        "path": "./syntaxes/options-txt.tmLanguage.json"
       }
     ]
   },
