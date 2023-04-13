@@ -16,27 +16,22 @@
       "end": "[a-z0-9](?=:)"
     },
     "values": {
+      "contentName": "support.property-value",
       "begin": ":",
       "end": "$",
       "patterns": [
         {
-          "name": "support.property-value",
-          "begin": "[^:]",
-          "end": "$",
-          "patterns": [
-            {
-              "name": "constant.language.boolean",
-              "match": "(true|false)"
-            },
-            {
-              "name": "constant.numeric",
-              "match": "[0-9\\.]"
-            }
-          ]
+          "name": "string.quoted.double",
+          "begin": "\"",
+          "end": "(\"|$)"
         },
         {
-          "name": "punctuation.separator.key-value",
-          "match": ":"
+          "name": "constant.language.boolean",
+          "match": "(true|false)"
+        },
+        {
+          "name": "constant.numeric",
+          "match": "^[0-9\\.]"
         }
       ]
     }
