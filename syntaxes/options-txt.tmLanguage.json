@@ -4,6 +4,9 @@
   "patterns": [
     {
       "include": "#keys"
+    },
+    {
+      "include": "#values"
     }
   ],
   "repository": {
