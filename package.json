@@ -1,9 +1,17 @@
 {
-  "name": "options-txt",
+  "name": "mc-options-txt",
+  "displayName": "Minecraft options.txt",
   "description": "An extension which provides data concerning Minecraft's options.txt file.",
+  "publisher": "adamraichu",
   "author": {
     "name": "AdamRaichu",
     "url": "https://github.com/AdamRaichu"
+  },
+  "categories": [
+    "Visualization"
+  ],
+  "repository": {
+    "url": "https://github.com/AdamRaichu/vscode-mc-options.txt"
   },
   "icon": "logo.png",
   "license": "MIT",
