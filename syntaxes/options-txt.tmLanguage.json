@@ -13,7 +13,7 @@
     "keys": {
       "name": "support.type.property-name",
       "begin": "^",
-      "end": "[a-z](?=:)"
+      "end": "[a-z0-9](?=:)"
     },
     "values": {
       "begin": ":",
@@ -21,7 +21,22 @@
       "patterns": [
         {
           "name": "support.property-value",
-          "match": "[^:]"
+          "begin": "[^:]",
+          "end": "$",
+          "patterns": [
+            {
+              "name": "constant.language.boolean",
+              "match": "(true|false)"
+            },
+            {
+              "name": "constant.numeric",
+              "match": "[0-9\\.]"
+            }
+          ]
+        },
+        {
+          "name": "punctuation.separator.key-value",
+          "match": ":"
         }
       ]
     }

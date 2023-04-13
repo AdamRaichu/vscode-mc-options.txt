@@ -5,6 +5,7 @@
     "name": "AdamRaichu",
     "url": "https://github.com/AdamRaichu"
   },
+  "license": "MIT",
   "version": "1.0.0",
   "main": "./extension.js",
   "browser": "./extension.js",
