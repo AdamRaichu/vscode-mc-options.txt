@@ -30,6 +30,11 @@
           "match": "(true|false)"
         },
         {
+          "name": "constant.language.keybinding",
+          "begin": "key\\.(mouse|keyboard)\\.[a-z0-9\\.]+",
+          "end": "$"
+        },
+        {
           "name": "constant.numeric",
           "match": "[0-9\\.]"
         }

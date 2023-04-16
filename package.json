@@ -15,7 +15,7 @@
   },
   "icon": "logo.png",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "./extension.js",
   "browser": "./extension.js",
   "dependencies": {},
@@ -27,7 +27,7 @@
       {
         "id": "options-txt",
         "aliases": [
-          "options-txt"
+          "Minecraft options.txt"
         ],
         "extensions": [
           "txt"
