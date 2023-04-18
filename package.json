@@ -10,6 +10,10 @@
   "categories": [
     "Visualization"
   ],
+  "keywords": [
+    "Minecraft",
+    "options"
+  ],
   "repository": {
     "url": "https://github.com/AdamRaichu/vscode-mc-options.txt"
   },
