@@ -19,7 +19,7 @@ This feature will automatically trigger for files with the names `options.txt` a
 ### Intellisense (sort of)
 
 The extension has been loaded with information about the various options and what they do.
-Hovering over text in a line will provide a hover note with a short blurb about what that option controls (taken from the [Minecraft Fandom page][fandom/options.txt/je]).
+Hovering over text in a line will provide a hover note with a short blurb about what that option controls (taken from the [Minecraft Wiki page][fandom/options.txt/je]).
 
 ![Hover Information](./screenshots/options.txt.hover-info.png)
 
