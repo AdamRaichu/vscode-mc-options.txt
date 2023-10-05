@@ -25,4 +25,4 @@ Hovering over text in a line will provide a hover note with a short blurb about 
 
 This feature is not complete in this release, but version `1.0.0` will have information concerning all of the vanilla options.
 
-[fandom/options.txt/je]: https://minecraft.fandom.com/wiki/Options.txt#Java_Edition
+[fandom/options.txt/je]: https://minecraft.wiki/w/Options.txt#Java_Edition
