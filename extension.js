@@ -35,6 +35,26 @@ const keys = {
   guiScale: "Size of interfaces",
   particles: "Amount of particles (such as rain, potion effects, etc.)",
   maxFps: "The maximum framerate",
+  graphicsMode: "Whether Fast (less detailed), Fancy (more detailed), or Fabulous! (most detailed) graphics are turned on",
+  ao: "Smooth lighting",
+  prioritizeChunkUpdates: "Chunk section update strategy",
+  biomeBlendRadius: "Radius for which biome blending should happen",
+  renderClouds: "Whether to display [clouds](https://minecraft.wiki/w/Clouds",
+  resourcePacks: "A list of active resource packs, with pack names in quotes, separated with commas",
+  incompatibleResourcePacks: "A list of active resource packs that are marked as incompatible with the current _Minecraft_ version, with pack names in quotes, separated with commas",
+  lastServer: "Address of last server used with Direct Connection",
+  lang: "Language to be used",
+  soundDevice: "Sound device to be used",
+  chatVisibility: "What is seen in chat",
+  chatOpacity: "Opacity of the chat",
+  chatLineSpacing: "Spacing between text in chat",
+  textBackgroundOpacity: "Opacity of text background",
+  backgroundForChatOnly: "Toggles if the background is only in chat or if it's everywhere",
+  hideServerAddress: "Has no effect in modern versions",
+  advancedItemTooltips:
+    "Whether hovering over items in the [inventory](https://minecraft.wiki/w/Inventory) shows its [ID](https://minecraft.wiki/w/Java_Edition_data_values) and [durability](https://minecraft.wiki/w/Item_durability); toggled by pressing `F3` + `H`",
+  pauseOnLostFocus: "Whether switching out of _Minecraft_ without pressing `Esc` or opening an in-game interface automatically pauses the game; toggled by pressing `F3` + `P`",
+  overrideWidth: "Width to open _Minecraft_ with in pixels (0 means default to the _Minecraft_ settings); no in-game control",
 };
 
 vscode.languages.registerHoverProvider("options-txt", {
